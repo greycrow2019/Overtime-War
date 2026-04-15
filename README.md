@@ -31,7 +31,7 @@
 ## 🎯 立即遊玩
 👉 [點擊進入辦公室戰場](https://greycrow2019.github.io/Overtime-War/)
 
-喜歡的話歡迎 Star ⭐、分享給同事，或提出 Issue / Pull Request，一起讓更多社畜找到下班之道！
+喜歡的話歡迎 Star ⭐、分享給同事，一起讓更多社畜找到下班之道！
 
 ---
 
