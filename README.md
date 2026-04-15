@@ -26,5 +26,4 @@
 準備好打響你的下班戰爭了嗎？  
 衝啊，社畜戰士們！！ 🏃‍♂️💨
 
-👉 點擊進入辦公室戰場 👈
-https://greycrow2019.github.io/Overtime-War/
+[👉 點擊進入辦公室戰場 👈](https://greycrow2019.github.io/Overtime-War/)
