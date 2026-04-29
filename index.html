@@ -107,8 +107,9 @@
                     <p class="mb-4 text-gray-700 leading-relaxed">
                         玩家每回合輪流在其思考時間內選擇不同角色。角色的效果及副作用將以該回合的回合時間為基礎影響個人工時。<br><br>
                         當辦公室時鐘到達辦工時間即遊戲結束，此時若：<br>
-                        - <span class="font-bold text-emerald-600">個人工時比辦公時間少</span>：提早放工<br>
-                        - <span class="font-bold text-blue-600">個人工時等於辦公時間</span>：準時放工<br><br>
+                        - <span class="font-bold text-emerald-600">個人實際工時比辦公時間少</span>：提早放工<br>
+                        - <span class="font-bold text-blue-600">個人實際工時等於辦公時間</span>：準時放工<br>
+                        - <span class="font-bold text-red-600">個人實際工時大於辦公時間</span>：需要超時工作<br><br>
                         <span class="text-indigo-600 font-bold italic">※ 若遊戲僅剩一名玩家則提前結束，辦公室時鐘將會快轉至辦工時間並進行相應結算。</span>
                     </p>
                     <h3 class="font-bold text-indigo-700 mb-2 flex items-center">🏆 獲勝條件</h3>
@@ -126,6 +127,8 @@
                         <span class="font-mono bg-white px-2 py-0.5 rounded border">辦公時間 / 辦公室剩餘人數</span><br>
                         <span class="mt-2 block text-xs text-indigo-600 font-bold">※ 思考時間會隨人數減少而增加。</span>
                     </p>
+                    <p class="mb-4 text-red-700 leading-relaxed">
+                        ！！遊戲過程中請盡量保持遊戲頁面開啓或在思考時間完結前回到頁面，以避免遊戲回合凍結在某玩家輪次完結一刻<br>
                     <h3 class="font-bold text-red-600 mb-2 flex items-center">💀 落敗條件</h3>
                     <ul class="list-disc ml-4 space-y-2 text-gray-700">
                         <li><strong>超時加班 (OT)</strong>：個人工時在辦公時間到達前已等於辦公時間，或當剩餘一名玩家時，其個人工時在進行相應結算後大於辦公時間。</li>
@@ -193,7 +196,7 @@
 
                 <!-- 玩家狀態清單 -->
                 <div class="bg-white p-6 rounded-3xl shadow-lg border border-gray-100">
-                    <h3 class="font-black text-gray-800 text-lg mb-4 border-b pb-3">個人工時</h3>
+                    <h3 class="font-black text-gray-800 text-lg mb-4 border-b pb-3">個人實際工時</h3>
                     <div id="player-status-list" class="space-y-3 max-h-[400px] lg:max-h-[500px] overflow-y-auto pr-2"></div>
                 </div>
             </div>
